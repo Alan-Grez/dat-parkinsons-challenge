@@ -1,0 +1,48 @@
+[project]
+name = "dat-parkinsons-challenge"
+version = "0.1.0"
+description = "Entorno local para DaT Parkinson's Challenge de DrivenData"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "ipykernel",
+    "ipywidgets",
+    "jupyterlab",
+    "matplotlib",
+    "monai",
+    "nibabel",
+    "numpy",
+    "optuna>=4.9,<5",
+    "pandas",
+    "polars",
+    "plotly",
+    "scikit-image",
+    "scikit-learn",
+    "scipy",
+    "seaborn",
+    "simpleitk",
+    "torch==2.13.0+cu130",
+    "torchio==1.2.1",
+    "torchvision==0.28.0+cu130",
+    "tqdm",
+    "umap-learn>=0.5.8,<0.6",
+    "xgboost>=3.0,<4",
+]
+
+[dependency-groups]
+dev = [
+    "pytest",
+    "ruff",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[[tool.uv.index]]
+name = "pytorch-cu130"
+url = "https://download.pytorch.org/whl/cu130"
+explicit = true
+
+[tool.uv.sources]
+torch = { index = "pytorch-cu130" }
+torchvision = { index = "pytorch-cu130" }

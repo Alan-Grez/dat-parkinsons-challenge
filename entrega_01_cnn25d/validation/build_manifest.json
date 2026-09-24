@@ -1,0 +1,65 @@
+{
+  "delivery": "entrega_01_cnn25d",
+  "packaged_files": {
+    "assets/fold_0.pt": {
+      "bytes": 538249,
+      "sha256": "2b83eb0bfd90117097456b0f4d591d3b0a865b6013a7cb1f5116be811e1bad5a"
+    },
+    "assets/fold_1.pt": {
+      "bytes": 538249,
+      "sha256": "9d57eab56284c751cf9079a744e84ae5c071d8774bbb0da4affc72be8ec547b7"
+    },
+    "assets/fold_2.pt": {
+      "bytes": 538249,
+      "sha256": "4259bfb54d890a39af8890576306b4955ec016008d9cabcdce46f3eeb9540027"
+    },
+    "assets/fold_3.pt": {
+      "bytes": 538249,
+      "sha256": "79a017d75d25b633572dead0235f42bd3cef59431d110784d69466e9f24df709"
+    },
+    "assets/fold_4.pt": {
+      "bytes": 538249,
+      "sha256": "5caf352349d940f41f80ffc91ca8e15ac82519df8c8c09c6bf446a565f1c9671"
+    },
+    "assets/manifest.json": {
+      "bytes": 2217,
+      "sha256": "557361b34ee3b223c1979408aeb89590f68c96ff6455b278128eae2760506084"
+    },
+    "assets/registration_template.npz": {
+      "bytes": 2549256,
+      "sha256": "220406c4c1033f5b56cdcf24caa3ed6d95741db809402aeba0aaa34e1658b0b7"
+    },
+    "main.py": {
+      "bytes": 1744,
+      "sha256": "04016b8ef05022a0b6b053fb27f6cb05f860908dfc6b149619bae1535c5d345b"
+    },
+    "src/__init__.py": {
+      "bytes": 152,
+      "sha256": "ca171e105a6b2a1c9eb1e8467c86278ede9390cbea44bb85cbc703719b61068c"
+    },
+    "src/model.py": {
+      "bytes": 6906,
+      "sha256": "c4a854497157792f0d8faefeb616c5e5e51dc5182db1386b088849bb3d1e72e6"
+    },
+    "src/predictor.py": {
+      "bytes": 3148,
+      "sha256": "d62945b7d21de1f506092645b2ae367aaaf9d9f0a61900cb1904a32f7d341ca8"
+    },
+    "src/preprocessing.py": {
+      "bytes": 13559,
+      "sha256": "cbb8d9bd7d401125165ea59e6e149e5574b52abc20b92fb3037571bc799acb17"
+    }
+  },
+  "primary_candidate": "43765c3f64a985b1",
+  "source_checkpoint_sha256": {
+    "source_fold_0": "28b1ccfe9cb10c91e8f5a866c90526c8888b0990c7d32585e9c2276f71a91dd7",
+    "source_fold_1": "1d03cd6571c6156b6d6dbc3e5431e53d72c5ee0371b235b1672397109ebfef00",
+    "source_fold_2": "d712387bbda9638502af223ed16d4eb4b46753be20b9e2d280d1f38309fe6545",
+    "source_fold_3": "6fa7b180291bc5397b057addbfae0ce8257e382c169cf767361ee8d79a062d6a",
+    "source_fold_4": "e357abc4fb70f1574b762eabe4109cec2621efc2d29a67d16c9435214008d999"
+  },
+  "source_primary_manifest_sha256": "1921052f199b56064401768db3956533032bb91c96981ed56a9a0253a74e8fa1",
+  "source_upstream_config_sha256": "44a0229b771dbae584bd21ec74f8d55ce5c653253a185bba236055804bb18496",
+  "submission_zip_bytes": 4867743,
+  "submission_zip_sha256": "b94ad17bb1aa0759fab9a85fd0aec531147b2b914a287ba9cded97aa562785cd"
+}

@@ -1,0 +1,102 @@
+{
+  "acquisition_family_used_as_predictor": false,
+  "architecture": "slab2d",
+  "candidate_id": "555b81376733bb67",
+  "cross_validated_log_loss": 0.5436546552477954,
+  "feature_variant": "image_radiomics_sbr",
+  "folds": [
+    {
+      "checkpoint_file": "fold_0.pt",
+      "fold": 0,
+      "sbr_features": 11,
+      "selected_regional_features": 32,
+      "source_checkpoint_sha256": "1c31b79c392c23f1b1fd06ff214df09d3816bada58040106815dfaf77830915c",
+      "template_file": "fold_0_templates.npz"
+    },
+    {
+      "checkpoint_file": "fold_1.pt",
+      "fold": 1,
+      "sbr_features": 11,
+      "selected_regional_features": 32,
+      "source_checkpoint_sha256": "373e297f113f46af61a0d3ad5260f8323a9b859a981590956f64a55d6794474d",
+      "template_file": "fold_1_templates.npz"
+    },
+    {
+      "checkpoint_file": "fold_2.pt",
+      "fold": 2,
+      "sbr_features": 11,
+      "selected_regional_features": 32,
+      "source_checkpoint_sha256": "cc4fa710b067cce874dcba431eb6de6dc389ae0a509ae13085ed7e9237061c93",
+      "template_file": "fold_2_templates.npz"
+    },
+    {
+      "checkpoint_file": "fold_3.pt",
+      "fold": 3,
+      "sbr_features": 11,
+      "selected_regional_features": 32,
+      "source_checkpoint_sha256": "bda3bb05d17ccc812bdb19cbf4465689e42ff2cd91d4d489a3e5d69679f0b357",
+      "template_file": "fold_3_templates.npz"
+    },
+    {
+      "checkpoint_file": "fold_4.pt",
+      "fold": 4,
+      "sbr_features": 11,
+      "selected_regional_features": 32,
+      "source_checkpoint_sha256": "b6d1cf648f486d21a8b8b959b546a25fb0d98356211d698643b2aa5ea1cfa624",
+      "template_file": "fold_4_templates.npz"
+    }
+  ],
+  "inference_rule": "temperature-calibrate each fold logit, then mean five probabilities",
+  "n_fold_models": 5,
+  "registration": {
+    "backend_fallback": "SimpleITK",
+    "backend_primary": "torch_cuda",
+    "early_stopping_patience": 7,
+    "mode": "rigid then fold-specific bounded affine",
+    "orientation": "LPS",
+    "stages": [
+      [
+        0.25,
+        28,
+        0.04
+      ],
+      [
+        0.5,
+        20,
+        0.025
+      ],
+      [
+        1.0,
+        12,
+        0.012
+      ]
+    ]
+  },
+  "registration_template_file": "registration_template.npz",
+  "schema_version": "dat_node09_submission_v1",
+  "temperature": 1.234489636989304,
+  "template": {
+    "crop_start_zyx": [
+      52,
+      69,
+      80
+    ],
+    "crop_stop_zyx": [
+      134,
+      172,
+      165
+    ],
+    "grid_shape_zyx": [
+      252,
+      252,
+      252
+    ],
+    "spacing_xyz_mm": [
+      2.5,
+      2.5,
+      2.5
+    ],
+    "template_type": "training-derived fixed reference without UID"
+  },
+  "test_samples_processed_independently": true
+}

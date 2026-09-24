@@ -1,0 +1,28 @@
+{
+  "static": {
+    "archive_sha256": "60b50c715265e1ae7c9f0c39afce22bfcd3190edf211ed10a51d54bb5af756d1",
+    "archive_files": 24,
+    "archive_bytes": 6516859,
+    "candidate_id": "555b81376733bb67",
+    "fold_models": 5,
+    "temperature": 1.234489636989304,
+    "cv5_cross_calibrated_log_loss": 0.5436546552477954
+  },
+  "model_equivalence": {
+    "folds": 5,
+    "source_model_max_abs_logit_difference": 0.0
+  },
+  "official_demo_archive_smoke": {
+    "rows": 20,
+    "columns": [
+      "uid",
+      "is_pathologic"
+    ],
+    "probabilities_valid": true,
+    "probability_min": 0.1283477985873579,
+    "probability_max": 0.8808833907481202,
+    "elapsed_seconds": 166.38006719999248,
+    "seconds_per_case_including_startup": 8.319003359999623,
+    "stdout_lines": 1
+  }
+}

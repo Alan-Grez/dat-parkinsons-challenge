@@ -1,0 +1,36 @@
+{
+  "static": {
+    "archive_sha256": "b94ad17bb1aa0759fab9a85fd0aec531147b2b914a287ba9cded97aa562785cd",
+    "archive_files": 12,
+    "archive_bytes": 4867743,
+    "candidate_id": "43765c3f64a985b1",
+    "fold_models": 5,
+    "cpu_model_smoke_probabilities": [
+      0.8397001028060913,
+      0.8397001028060913
+    ],
+    "source_model_max_abs_logit_difference": 0.0,
+    "template_shape_zyx": [
+      252,
+      252,
+      252
+    ]
+  },
+  "local_archive_smoke": {
+    "rows": 5,
+    "columns": [
+      "uid",
+      "is_pathologic"
+    ],
+    "probabilities_valid": true,
+    "stdout_lines": 2,
+    "elapsed_seconds": 27.17835380003089,
+    "seconds_per_case_including_startup": 5.435670760006178,
+    "source": "temporary_local_archive_smoke",
+    "preprocessing_regression": {
+      "cases": 5,
+      "minimum_pearson_correlation": 0.9999414873222648,
+      "maximum_mean_absolute_error": 0.0007947950507514179
+    }
+  }
+}

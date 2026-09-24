@@ -1,0 +1,20 @@
+.venv/
+.uv-cache/
+.uv-python/
+__pycache__/
+*.py[cod]
+tmp/*.whl
+tmp/*
+.ipynb_checkpoints/
+
+# Datos de la competencia: uso local y nunca versionar/publicar.
+data/raw/
+data/processed/
+official-runtime/data-demo/
+
+# Artefactos pesados o generados.
+models/
+outputs/
+submission/*.zip
+submission/*.csv
+submission/*.log

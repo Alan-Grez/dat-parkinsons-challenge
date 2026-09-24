@@ -1,0 +1,108 @@
+{
+  "architecture": "2.5d",
+  "candidate_id": "43765c3f64a985b1",
+  "data_config": {
+    "cache_checkpoint_every": 50,
+    "cache_dtype": "float16",
+    "clip_percentiles": [
+      0.5,
+      99.5
+    ],
+    "feature_schema_version": "cnn_core_radiomics_v3_lps_shape",
+    "high_uptake_percentile": 85.0,
+    "image_shape_3d": [
+      64,
+      80,
+      64
+    ],
+    "node4_profile": "v3",
+    "normalized_clip": [
+      -3.0,
+      3.0
+    ],
+    "scale_percentiles": [
+      5.0,
+      95.0
+    ],
+    "slices_per_view": 5,
+    "texture_levels": 24,
+    "view_size_2d": 96
+  },
+  "feature_variant": "image_only",
+  "fold_files": [
+    "fold_0.pt",
+    "fold_1.pt",
+    "fold_2.pt",
+    "fold_3.pt",
+    "fold_4.pt"
+  ],
+  "inference_rule": "temperature_scale_each_fold_logit_then_mean_probabilities",
+  "model_config": {
+    "architecture": "2.5d",
+    "base_channels": 12,
+    "dropout": 0.360124684611175,
+    "feature_variant": "image_only",
+    "gem_initial_p": 3.0,
+    "gem_max_p": 6.0,
+    "image_embedding_dim": 128,
+    "in_channels": 1,
+    "pooling": "gap_max",
+    "radiomics_dim": 0,
+    "sbr_dim": 0,
+    "sbr_hidden_dim": 16,
+    "slices_per_view": 5,
+    "tabular_embedding_dim": 32
+  },
+  "n_fold_models": 5,
+  "registration": {
+    "backend_fallback": "SimpleITK",
+    "backend_primary": "torch_cuda",
+    "early_stopping_patience": 7,
+    "mode": "rigid",
+    "orientation": "LPS",
+    "stages": [
+      [
+        0.25,
+        28,
+        0.04
+      ],
+      [
+        0.5,
+        20,
+        0.025
+      ],
+      [
+        1.0,
+        12,
+        0.012
+      ]
+    ]
+  },
+  "schema_version": "dat_submission_v1",
+  "temperature": 1.3052315465492708,
+  "template": {
+    "crop_start_zyx": [
+      52,
+      69,
+      80
+    ],
+    "crop_stop_zyx": [
+      134,
+      172,
+      165
+    ],
+    "grid_shape_zyx": [
+      252,
+      252,
+      252
+    ],
+    "spacing_xyz_mm": [
+      2.5,
+      2.5,
+      2.5
+    ],
+    "template_type": "training_derived_fixed_reference_without_uid"
+  },
+  "template_file": "registration_template.npz",
+  "test_samples_processed_independently": true
+}

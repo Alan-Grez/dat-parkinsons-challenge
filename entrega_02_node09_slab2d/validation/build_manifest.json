@@ -1,0 +1,116 @@
+{
+  "cross_validated_log_loss": 0.5436546552477954,
+  "delivery": "entrega_02_node09_slab2d",
+  "packaged_files": {
+    "assets/fold_0.pt": {
+      "bytes": 755749,
+      "sha256": "cc6522daa359f447dd2b2dc690f95da3c5790584340b5449d2f0469ca407101f"
+    },
+    "assets/fold_0_templates.npz": {
+      "bytes": 96766,
+      "sha256": "cd2080dc601db94f912bcc42f348d7eaacbd6b3ea6e22dff8d41476aef3d35f5"
+    },
+    "assets/fold_1.pt": {
+      "bytes": 755621,
+      "sha256": "e6d5c7ea8249606263d1edabbecd739314b8555a86fe0b94c6278e42ce2053f9"
+    },
+    "assets/fold_1_templates.npz": {
+      "bytes": 96908,
+      "sha256": "22b533a616267c99227dbaf22770437de22a89eb426cbc36a29f6d529c0fa114"
+    },
+    "assets/fold_2.pt": {
+      "bytes": 755685,
+      "sha256": "85139d2841574f3ccaf19b7335194a122894fca748c64748b4798444daaafa22"
+    },
+    "assets/fold_2_templates.npz": {
+      "bytes": 97820,
+      "sha256": "936b90e8dd57b8d25a4de89085a3891e12da08d2c810adf9c7e7edfcac6653ee"
+    },
+    "assets/fold_3.pt": {
+      "bytes": 755685,
+      "sha256": "ef40b0ac9d57cc7163ea019ffd2af8cdf14ab8550fc9749cd1a30c507fb8ba4f"
+    },
+    "assets/fold_3_templates.npz": {
+      "bytes": 97534,
+      "sha256": "6c5c84502b9d96299c256e134fc082befc4475ed5d8a778a055535112a8d3491"
+    },
+    "assets/fold_4.pt": {
+      "bytes": 755621,
+      "sha256": "511c3acbd46749e94ed2dc0ab3664b733278bded217e6f6c9d3c4841c49261e2"
+    },
+    "assets/fold_4_templates.npz": {
+      "bytes": 97307,
+      "sha256": "54c742a34a3c44503d86251a2a28027c68bdf8252c9fe59212aac37e09debdc9"
+    },
+    "assets/manifest.json": {
+      "bytes": 2785,
+      "sha256": "fc63c4bb59502271ec91c76642415273bea51807468d41cc559ea97fdefe8233"
+    },
+    "assets/registration_template.npz": {
+      "bytes": 2845665,
+      "sha256": "7a1dcd57dea89053d920f5ac5116028bd7c7617c8e749a99eb22a1e83dabba0e"
+    },
+    "main.py": {
+      "bytes": 1653,
+      "sha256": "dbb7c3dbfca6fc46c4b868c8fb642ff5684a01a4f1816e9e5a2632f99b710e73"
+    },
+    "modeling/__init__.py": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "modeling/cnn/__init__.py": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "modeling/cnn/io.py": {
+      "bytes": 6549,
+      "sha256": "2a0fda8db33cc72b78f76843aa4de527aefe72a1e30467fe30ff8cb270682ab6"
+    },
+    "modeling/dat_spect_v2/__init__.py": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "modeling/dat_spect_v2/config.py": {
+      "bytes": 5973,
+      "sha256": "2b3866245d4e7487edd322aea813f2a0474a116576590e5b1aefb9c7b87107ed"
+    },
+    "modeling/dat_spect_v2/features.py": {
+      "bytes": 17817,
+      "sha256": "23c3d1e509c40d1dbba5b4e86a38b2dc563a0729adc60b7e7d321d747041b938"
+    },
+    "modeling/dat_spect_v2/models.py": {
+      "bytes": 12724,
+      "sha256": "ad0c24d624bf9cce01f33ad2a2de4b666e03f58f4312dadc2f5d682748e43193"
+    },
+    "modeling/dat_spect_v2/preprocessing.py": {
+      "bytes": 25986,
+      "sha256": "693f294a61fbe08c4fb50d5902a3b8e49372b7c0370314485d3e136f2bef25cf"
+    },
+    "src/__init__.py": {
+      "bytes": 68,
+      "sha256": "66723fb3556831a9244aa4a857a9fe5761fe0d0fbc27b903b42cee0e61c35fd6"
+    },
+    "src/predictor.py": {
+      "bytes": 12745,
+      "sha256": "97d38789800e79e3b02028a8201250e6f5180507fd39a0f41cb151057825e69a"
+    },
+    "src/raw_registration.py": {
+      "bytes": 13488,
+      "sha256": "43b8bc4cf81d4a87c34ac6794e7e0fa64469716635bc8866ed8783246cade1bc"
+    }
+  },
+  "primary_candidate": "555b81376733bb67",
+  "selection_metric": "five-fold OOF cross-calibrated log loss",
+  "source_checkpoint_sha256": {
+    "fold_0": "1c31b79c392c23f1b1fd06ff214df09d3816bada58040106815dfaf77830915c",
+    "fold_1": "373e297f113f46af61a0d3ad5260f8323a9b859a981590956f64a55d6794474d",
+    "fold_2": "cc4fa710b067cce874dcba431eb6de6dc389ae0a509ae13085ed7e9237061c93",
+    "fold_3": "bda3bb05d17ccc812bdb19cbf4465689e42ff2cd91d4d489a3e5d69679f0b357",
+    "fold_4": "b6d1cf648f486d21a8b8b959b546a25fb0d98356211d698643b2aa5ea1cfa624"
+  },
+  "source_deployment_manifest_sha256": "b6b2bc053396082814afd0cf4f6be58b6aab34bd48ed2f9382160e9ea6cc284d",
+  "source_run": "node09_fine_v1",
+  "source_upstream_config_sha256": "44a0229b771dbae584bd21ec74f8d55ce5c653253a185bba236055804bb18496",
+  "submission_zip_bytes": 6516859,
+  "submission_zip_sha256": "60b50c715265e1ae7c9f0c39afce22bfcd3190edf211ed10a51d54bb5af756d1"
+}
